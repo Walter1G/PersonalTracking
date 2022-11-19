@@ -10,23 +10,21 @@ using System.Windows.Forms;
 
 namespace PersonalTracking
 {
-    public partial class FrmLogin : Form
+    public partial class FrmEmployee : Form
     {
-        public FrmLogin()
+        public FrmEmployee()
         {
             InitializeComponent();
         }
 
-        private void txtUserNo_KeyPress(object sender, KeyPressEventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-            
-                e.Handled= General.isNumber(e);
-            
+            Close();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+
         }
     }
 }

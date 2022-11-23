@@ -67,7 +67,7 @@
             this.dpEnd.Location = new System.Drawing.Point(106, 77);
             this.dpEnd.Name = "dpEnd";
             this.dpEnd.Size = new System.Drawing.Size(158, 23);
-            this.dpEnd.TabIndex = 12;
+            this.dpEnd.TabIndex = 1;
             // 
             // dpStart
             // 
@@ -75,7 +75,7 @@
             this.dpStart.Location = new System.Drawing.Point(106, 45);
             this.dpStart.Name = "dpStart";
             this.dpStart.Size = new System.Drawing.Size(158, 23);
-            this.dpStart.TabIndex = 11;
+            this.dpStart.TabIndex = 0;
             // 
             // label4
             // 
@@ -133,7 +133,7 @@
             this.txtExplanation.Multiline = true;
             this.txtExplanation.Name = "txtExplanation";
             this.txtExplanation.Size = new System.Drawing.Size(369, 209);
-            this.txtExplanation.TabIndex = 15;
+            this.txtExplanation.TabIndex = 2;
             // 
             // btnClose
             // 
@@ -141,7 +141,7 @@
             this.btnClose.Location = new System.Drawing.Point(267, 388);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(87, 31);
-            this.btnClose.TabIndex = 19;
+            this.btnClose.TabIndex = 4;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -152,7 +152,7 @@
             this.btnSave.Location = new System.Drawing.Point(153, 388);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(87, 31);
-            this.btnSave.TabIndex = 18;
+            this.btnSave.TabIndex = 3;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             // 

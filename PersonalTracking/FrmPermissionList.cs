@@ -16,5 +16,15 @@ namespace PersonalTracking
         {
             InitializeComponent();
         }
+
+        private void txtUserNo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = General.isNumber(e);
+        }
+
+        private void txtDayAmount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = General.isNumber(e);
+        }
     }
 }

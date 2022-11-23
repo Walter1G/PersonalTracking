@@ -16,5 +16,15 @@ namespace PersonalTracking
         {
             InitializeComponent();
         }
+
+        private void FrmSalary_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
